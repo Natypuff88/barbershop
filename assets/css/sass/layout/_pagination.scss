@@ -1,0 +1,25 @@
+.pagination{
+    background-color: $light-gray;
+}
+
+.page-link{
+    color: $eerie-black;
+
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: $nickel;
+    border-color: $nickel;
+}
+
+.page-item:first-child .page-link {
+    border-top-left-radius: 2rem; 
+    border-bottom-left-radius: 2rem;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 2rem; 
+    border-bottom-right-radius: 2rem;
+}

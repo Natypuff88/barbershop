@@ -1,0 +1,57 @@
+.article__h2{
+    font-family: $playfair;
+    font-weight: $playfair-regular;
+    font-size: $large;
+    color: $raisin-back;
+    padding: 20px;
+}
+
+.article__p__texto-ordinario{
+    font-family: $roboto;
+    font-weight: $roboto-regular;
+    font-size: $medium;
+    color: $raisin-back;
+    padding: 20px;
+    line-height : 35px;
+}
+
+.article__span{
+    font-family: $roboto;
+    font-weight: $roboto-regular;
+    font-size: $medium;
+    color: $ruddy-pink;
+    line-height : 35px;   
+}
+
+
+.section__text-name{  
+    font-family: $playfair;
+    font-weight: $playfair-black-italic;
+    font-size: $x-large;
+    font-style: italic;
+    color: $raisin-back;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.section__text-contact{
+    font-family: $roboto;
+    font-weight: $roboto-light;
+    font-size: $large;
+    color: $ruddy-pink;
+    padding-left: 50px;
+}
+
+.section__text-description{
+    display: inline-block;
+    width: 55%;
+    margin: auto;
+    font-family: $roboto;
+    font-weight: $roboto-regular;
+    font-size: $medium;
+    color: $raisin-back;
+    padding-left: 50px;
+    line-height : 35px;
+}
+
+

@@ -1,0 +1,30 @@
+.nav__bar {
+    background-color: #121619;
+}
+
+.nav__bar__img-logo{
+    height: 50px;
+    width: auto;
+    padding-left: 100px;
+}
+
+
+.nav__bar__link{
+    font-family: $roboto-light;
+    font-weight: $roboto-regular;
+    font-size: medium;
+    color: $white;
+}
+
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .nav-link.active {
+    color: $ruddy-pink;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: $white;
+}
+
+.nav__bar__box{
+    padding-right: 200px;
+}

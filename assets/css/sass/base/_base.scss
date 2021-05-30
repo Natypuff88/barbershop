@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.section{
+    width: 100%;
+}
+
+.container__margin{
+    margin-top: 850px;
+    margin-bottom: 100px;
+}
+
+.section__box-img{
+    margin: 50px;
+}
+
+.section__img-avatar{
+    height: 180px;
+    width: auto;
+    border-radius: 200px;
+    margin-left: 20px;
+    margin-top: -110px;
+    top:0;
+}
+
+.section__text-avatar{
+    display: inline-block;
+    width: 20%;
+}

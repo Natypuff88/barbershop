@@ -1,0 +1,59 @@
+.button{
+    padding: 10px;
+}
+.button__share{
+    width: 115px;
+    height: 51px;
+    border-radius: 30px;
+    background-color: $nickel;
+    font-family: $roboto;
+    font-weight: $roboto-regular;
+    font-size: $medium;
+    color: $white;
+    margin-right: 10px;
+    border: $nickel;
+    &--medium {
+        padding: 1rem;
+      }
+    
+      &--small {
+        padding: 0.7rem;
+      }
+    
+      &:hover {
+        background-color: $light-gray;
+        border: 1px solid $light-gray;
+      }
+    
+      &:focus {
+        background-color: $nickel;
+        border: 2px solid $light-gray;
+      }
+}
+
+.button__comment{
+    width: 182px;
+    height: 51px;
+    border-radius: 30px;
+    background-color: $nickel;
+    font-family: $roboto;
+    font-weight: $roboto-regular;
+    font-size: $medium;
+    color: $white;
+    border: $nickel;
+    &--medium {
+        padding: 1rem;
+      }
+      &--small {
+        padding: 0.7rem;
+      }
+      &:hover {
+        background-color: $light-gray;
+        border: 1px solid $light-gray;
+      }
+    
+      &:focus {
+        background-color: $nickel;
+        border: 2px solid $light-gray;
+      }
+}
